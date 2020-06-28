@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.slide {
+    width: 100vw;
+    height: 100vh;
+} 
+.outer-wrapper {
+    width: 100vh;
+    height: 100vw;
+    transform: rotate(-90deg) translateX(-100vh);
+    transform-origin: top left;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: absolute;
+}
+
+.wrapper {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    width: 500vw;
+    overflow-y: hidden;
+    transform: rotate(90deg) translateY(-100vh);
+    transform-origin: top left;
+    background: rgb(255,241,0);
+    background: linear-gradient(90deg, rgba(255,241,0,0.18109250536151966) 0%, rgba(36,195,34,0.30154068463322825) 36%, rgba(45,253,238,0.556442645417542) 100%); 
+}
